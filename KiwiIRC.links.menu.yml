@@ -1,0 +1,6 @@
+KiwiIRC.admin:
+  title: 'KiwiIRC module settings'
+  description: 'Set up your server, channel, default nick, and theme for KiwiIRC'
+  parent: system.admin_config_development
+  route_name: KiwiIRC.admin_settings
+  weight: 100

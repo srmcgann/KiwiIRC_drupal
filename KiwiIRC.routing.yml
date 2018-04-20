@@ -1,0 +1,15 @@
+KiwiIRC.content:
+  path: '/kiwi'
+  defaults:
+    _controller: '\Drupal\KiwiIRC\Controller\KiwiIRCController::content'
+    _title: 'KiwiIRC'
+  requirements:
+    _permission: 'access content'
+
+KiwiIRC.admin_settings:
+  path: '/admin/config/KiwiIRC'
+  defaults:
+    _form: '\Drupal\KiwiIRC\Form\ModuleConfigurationForm'
+    _title: 'KiwiIRC configuration screen'
+  requirements:
+    _permission: 'administer site configuration'

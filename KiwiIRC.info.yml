@@ -1,0 +1,7 @@
+name: KiwiIRC Module
+description: Creates a page showing the KiwiIRC IRC interface.
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+configure: KiwiIRC.admin_settings
